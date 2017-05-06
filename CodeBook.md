@@ -14,13 +14,21 @@ Once the data is downloaded and the "UCI HAR Dataset folder extracted into the w
 Subset of variable selected
 
 mean(): Mean value
+
 std(): Standard deviation
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean
+
 
 Signals recorded in original study
 

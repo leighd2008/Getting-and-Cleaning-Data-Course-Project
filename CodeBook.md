@@ -71,7 +71,7 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-
+## Data processing by run_analysis.R
 
 Once the data is downloaded and the "UCI HAR Dataset folder extracted into the working directory, the run_analysis.R code selects a subset of the variables estimated for each signal in the original data processing.
 

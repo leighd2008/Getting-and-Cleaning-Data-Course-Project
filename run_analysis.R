@@ -35,7 +35,7 @@ dataarray <- rbind(testarray1, trainarray1)
 ## activity identifier to activity
 
 arraynames <- c(as.character(features[,2]))
-
+arraynames <- gsub("\\(\\)","", arraynames)
 dataarray <- `colnames<-`(dataarray, c("subject", "activity",arraynames))
 
 dataarray$activity <- as.numeric(dataarray$activity)
@@ -45,7 +45,7 @@ for(i in 1:nrow(dataarray)){
 }
 
 ## Select only mean and standard deviation data, calculate means for all 
-## varibles for each subject and activity, write Tidy data to txt file
+## varibles for each subject and activity, write Tidy da"ta to txt file
 
 dataarray <- dataarray [,grepl("subject|activity|*[Mm]ean|*[Ss]td",names(dataarray))]
 
